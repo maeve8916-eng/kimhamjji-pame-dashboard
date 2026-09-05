@@ -1,0 +1,22 @@
+# 실제 인증정보는 절대 커밋하지 않습니다.
+.streamlit/secrets.toml
+*service-account*.json
+*credentials*.json
+*.pem
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# 편집기·운영체제
+.DS_Store
+.idea/
+.vscode/
+
